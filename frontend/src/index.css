@@ -1,3 +1,19 @@
 @import "tailwindcss";
 @import "flowbite/src/themes/default";
 @import "flowbite";
+
+@theme inline {
+    --animate-aurora: aurora 60s linear infinite;
+    @keyframes aurora {
+      from {
+        background-position:
+          50% 50%,
+          50% 50%;
+      }
+      to {
+        background-position:
+          350% 50%,
+          350% 50%;
+      }
+    }
+  }
