@@ -246,7 +246,7 @@ const LearnPath = () => {
     setErrorMessage("");
 
     try {
-      const response = await axios.post("http://localhost:5001/api/learn", {
+      const response = await axios.post("http://localhost:5000/api/learn", {
         message: formatDataToString(),
       });
 
@@ -281,8 +281,8 @@ const LearnPath = () => {
     <div className="lg:flex gap-8 p-8 mt-8 flex-1">
       <div className="lg:w-[46%]">
         <form onSubmit={(e) => e.preventDefault()} className="space-y-6">
-          <h1 className="text-3xl font-bold mt-10 mb-1 bg-gradient-to-r from-pink-500 to-purple-900 bg-clip-text text-transparent">
-            Financial Education Plan
+          <h1 className="text-3xl font-bold mt-15 bg-gradient-to-r from-pink-500 to-purple-900 bg-clip-text text-transparent mb-10">
+            Education Plan
           </h1>
 
           <select
