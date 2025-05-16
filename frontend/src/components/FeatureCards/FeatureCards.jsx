@@ -12,9 +12,9 @@ export default function TiltedCard({
   borderColor = "rgba(255, 255, 255, 0.18)",
   glassBlur = "16px",
   captionText = "",
-  containerHeight = "320px", // Increased from 260px
+  containerHeight = "320px",
   containerWidth = "100%",
-  cardHeight = "320px", // Increased from 260px
+  cardHeight = "320px", 
   cardWidth = "230px",
   scaleOnHover = 1.1,
   rotateAmplitude = 14,
@@ -122,7 +122,7 @@ export default function TiltedCard({
         
         {/* Shimmer effect - expanded gradient for taller card */}
         <motion.div
-          className="absolute top-0 left-0 w-full h-full rounded-[15px] overflow-hidden"
+          className="absolute top-0 left-0 h-fit w-fit rounded-[15px] overflow-hidden"
           style={{
             background: `linear-gradient(135deg, 
                          transparent 20%, 

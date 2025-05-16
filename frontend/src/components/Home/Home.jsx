@@ -17,7 +17,7 @@ const Home = () => {
                     <div className='flex'>
                     <h1 className='text-8xl mr-3'>Finara</h1>
                     <RotatingText
-                    texts={['Secure', 'Mordern', 'Seamless', 'Intelligent']}
+                    texts={['Secure', 'Modern', 'Seamless', 'Intelligent']}
                     mainClassName="px-2 text-8xl sm:px-2 md:px-3 bg-green-500 text-black overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
                     staggerFrom={"last"}
                     initial={{ y: "100%" }}
